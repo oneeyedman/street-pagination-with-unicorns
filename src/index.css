@@ -52,7 +52,7 @@ body {
   background: purple;
   color: white;
 }
-.page__counter {
+.fany-notifier {
   font-size: 40px;
   position: absolute;
   right: 1em;

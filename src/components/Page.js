@@ -5,7 +5,7 @@ class Page extends Component {
     const {label, active, position, counter} = this.props;
     return (
       <div className={`page page--${position} ${ active ? 'page--current':''}`}>
-        <div className="page__counter">{counter}</div>
+        <div className="fany-notifier">{counter}</div>
         {label}
       </div>
     );
